@@ -1,8 +1,27 @@
+body {
+    background-color: lightskyblue;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px auto;
+    width: 50vw;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-weight: bolder;
+}
+
 header {
     background-size: cover;
     background-image: url('../img/canary-islands-flag.png');
     background-repeat: no-repeat;
-    border: 2px solid blue;
     text-align: center;
 }
 
